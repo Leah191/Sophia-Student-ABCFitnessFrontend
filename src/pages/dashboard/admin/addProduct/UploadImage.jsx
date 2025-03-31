@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import axios from 'axios'
-import { getBaseUrl } from '../../../../utils/BaseURL';
+import { getBaseUrl } from '../../../../utils/baseURL';
 
 const UploadImage = ({ name, setImage }) => {
     const [loading, setLoading] = useState(false);
