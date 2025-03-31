@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { clearCart } from '../../redux/features/cart/cartSlice';
 
 import { loadStripe } from "@stripe/stripe-js";
-import { getBaseUrl } from '../../utils/BaseURL';
+import { getBaseUrl } from '../../utils/baseURL';
 
 const OrderSummary = () => {
     const dispatch = useDispatch()
