@@ -6,7 +6,7 @@ import Gallery from '../pages/shop/Gallery';
 import AboutUs from '../pages/contact/AboutUs';
 import Testimony from '../pages/testimony/Testimony';
 import SingleProduct from '../pages/shop/productDetails/SingleProduct';
-import Login from '../components/login';
+import Login from '../components/Login';
 import Register from '../components/Register';
 import DashboardLayout from '../pages/dashboard/DashboardLayout';
 import UserDMain from "../pages/dashboard/users/dashboard/UserDMain";
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: "/login",
+    path: "/Login",
     element: <Login/>
   },
   {
